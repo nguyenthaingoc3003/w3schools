@@ -38,5 +38,6 @@ func moveZeroes(nums []int) []int {
 		nums[i] = res[i]
 	}
 	fmt.Println(len(nums))
+	//
 	return nums
 }
